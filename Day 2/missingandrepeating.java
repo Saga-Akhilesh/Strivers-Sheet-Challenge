@@ -7,7 +7,7 @@ public class missingandrepeating{
 
     long n =arr.length;
     long  Sn = n*(n+1)/2;
-    long S2n = n*(n+1)*(2*n+1)/2;
+    long S2n = n*(n+1)*(2*n+1)/6;
     long S1= 0;
     long S2= 0;
     for(int i=0;i<n;i++){
