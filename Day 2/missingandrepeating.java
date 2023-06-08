@@ -16,7 +16,7 @@ public class missingandrepeating{
     }
     long val1 = S1-Sn;
     long val2= S2- S2n;
-    val2= val2/2;
+    val2= val2/val1;
     long x = (val1+val2)/2;
     long y = x-val1;
     int result[] = {(int)x,(int)y};
