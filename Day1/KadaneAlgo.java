@@ -16,5 +16,6 @@ public clas KadaneAlgo{
         }
 
         // if(max<0) max=0; use this if empty subarray is also taken in consideration in question
-        return arr;
+        return max;
+    }
 }
