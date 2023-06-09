@@ -1,3 +1,4 @@
+import java.util.*;
 public class subInterval{
     public int[][] merge(int[][] intervals) {
         List<int[]>res=new ArrayList<>();
